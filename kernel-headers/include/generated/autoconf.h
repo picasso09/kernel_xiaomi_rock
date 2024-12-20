@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm64 5.10.218 Kernel Configuration
+ * Linux/arm64 5.10.226 Kernel Configuration
  *
  */
 #define CONFIG_NLS_CODEPAGE_861 1
@@ -47,7 +47,6 @@
 #define CONFIG_NF_CONNTRACK_NETBIOS_NS 1
 #define CONFIG_HDMI 1
 #define CONFIG_NETWORK_FILESYSTEMS 1
-#define CONFIG_CPU_FREQ_GOV_ONDEMAND 1
 #define CONFIG_ARM64_VA_BITS 39
 #define CONFIG_FS_ENCRYPTION_INLINE_CRYPT 1
 #define CONFIG_GLOB 1
@@ -426,7 +425,6 @@
 #define CONFIG_KVM_VFIO 1
 #define CONFIG_FIXED_PHY 1
 #define CONFIG_NLS_MAC_GAELIC 1
-#define CONFIG_CPU_FREQ_GOV_USERSPACE 1
 #define CONFIG_LOG_CPU_MAX_BUF_SHIFT 12
 #define CONFIG_NF_DUP_IPV4 1
 #define CONFIG_BLK_DEV_DM_BUILTIN 1
@@ -434,7 +432,6 @@
 #define CONFIG_OF_NET 1
 #define CONFIG_GENERIC_PINCONF 1
 #define CONFIG_ARM_ARCH_TIMER 1
-#define CONFIG_LTO_CLANG_THIN 1
 #define CONFIG_EVENT_TRACING 1
 #define CONFIG_SG_POOL 1
 #define CONFIG_DRM_KMS_HELPER 1
@@ -451,6 +448,7 @@
 #define CONFIG_TEXTSEARCH_BM 1
 #define CONFIG_FS_IOMAP 1
 #define CONFIG_NLS_MAC_INUIT 1
+#define CONFIG_LTO_CLANG_FULL 1
 #define CONFIG_BT_HCIUART_LL 1
 #define CONFIG_PPP_MPPE 1
 #define CONFIG_CAN_CALC_BITTIMING 1
@@ -1267,6 +1265,7 @@
 #define CONFIG_IP_NF_IPTABLES 1
 #define CONFIG_CMDLINE "stack_depot_disable=on kasan.stacktrace=off kvm-arm.mode=protected cgroup_disable=pressure cgroup.memory=nokmem"
 #define CONFIG_VSOCKETS 1
+#define CONFIG_MQ_IOSCHED_SSG 1
 #define CONFIG_NET_VENDOR_QLOGIC 1
 #define CONFIG_VIDEOBUF2_DMA_CONTIG 1
 #define CONFIG_USB_XHCI_HCD 1
@@ -1401,6 +1400,7 @@
 #define CONFIG_BT_HCIUART_BCM 1
 #define CONFIG_IOMMU_IO_PGTABLE_ARMV7S 1
 #define CONFIG_INPUT_FF_MEMLESS 1
+#define CONFIG_MQ_IOSCHED_SSG_CGROUP 1
 #define CONFIG_ARM64_ERRATUM_819472 1
 #define CONFIG_LLD_VERSION 120005
 #define CONFIG_HOLES_IN_ZONE 1
@@ -1660,6 +1660,7 @@
 #define CONFIG_ARM64_CONT_PTE_SHIFT 4
 #define CONFIG_USB_F_HID 1
 #define CONFIG_NLS_ISO8859_3 1
+#define CONFIG_ARM64_ERRATUM_3194386 1
 #define CONFIG_CRYPTO_CMAC 1
 #define CONFIG_SND 1
 #define CONFIG_ARCH_HAVE_ELF_PROT 1
@@ -1834,7 +1835,7 @@
 #define CONFIG_VIRTIO_MENU 1
 #define CONFIG_64BIT 1
 #define CONFIG_QUOTA 1
-#define CONFIG_UNUSED_KSYMS_WHITELIST "/workspace/pki/out/android12-5.10/common/abi_symbollist.raw"
+#define CONFIG_UNUSED_KSYMS_WHITELIST "/workspace/gki-5.10/out/android12-5.10/common/abi_symbollist.raw"
 #define CONFIG_PARTITION_PERCPU 1
 #define CONFIG_MMC_SDHCI_PLTFM 1
 #define CONFIG_KFENCE_SAMPLE_INTERVAL 500

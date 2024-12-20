@@ -1,1 +1,1 @@
-#define UTS_RELEASE "5.10.218-DiscussionVerse-android12-9-gc41a3606e72a+"
+#define UTS_RELEASE "5.10.226-DiscussionVerse-android12-9-g60ea6c8674e0+"
