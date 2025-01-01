@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm64 5.10.226 Kernel Configuration
+ * Linux/arm64 5.10.231 Kernel Configuration
  *
  */
 #define CONFIG_NLS_CODEPAGE_861 1
@@ -78,6 +78,7 @@
 #define CONFIG_NETFILTER_XT_MATCH_STATISTIC 1
 #define CONFIG_NLS_CODEPAGE_855 1
 #define CONFIG_KASAN_HW_TAGS 1
+#define CONFIG_PROC_MEM_ALWAYS_FORCE 1
 #define CONFIG_UHID 1
 #define CONFIG_UBSAN_BOUNDS 1
 #define CONFIG_IP_NF_NAT 1
@@ -1335,7 +1336,6 @@
 #define CONFIG_ANDROID_BINDERFS 1
 #define CONFIG_NLS_ISO8859_9 1
 #define CONFIG_NET_ACT_BPF 1
-#define CONFIG_CLKDEV_LOOKUP 1
 #define CONFIG_FONT_8x16 1
 #define CONFIG_NET_VENDOR_MELLANOX 1
 #define CONFIG_COMPAT_VDSO 1
@@ -1827,6 +1827,7 @@
 #define CONFIG_ARCH_HAS_SET_DIRECT_MAP 1
 #define CONFIG_DMA_SHARED_BUFFER 1
 #define CONFIG_RTC_SYSTOHC 1
+#define CONFIG_CPU_FREQ_GOV_SCHEDHORIZON 1
 #define CONFIG_OF_ADDRESS 1
 #define CONFIG_GKI_HIDDEN_NET_CONFIGS 1
 #define CONFIG_DECOMPRESS_GZIP 1
@@ -1835,7 +1836,7 @@
 #define CONFIG_VIRTIO_MENU 1
 #define CONFIG_64BIT 1
 #define CONFIG_QUOTA 1
-#define CONFIG_UNUSED_KSYMS_WHITELIST "/workspace/gki-5.10/out/android12-5.10/common/abi_symbollist.raw"
+#define CONFIG_UNUSED_KSYMS_WHITELIST "/workspace/GKI-5.10/out/android12-5.10/common/abi_symbollist.raw"
 #define CONFIG_PARTITION_PERCPU 1
 #define CONFIG_MMC_SDHCI_PLTFM 1
 #define CONFIG_KFENCE_SAMPLE_INTERVAL 500

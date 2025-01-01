@@ -246,6 +246,7 @@
 #define __KSYM___pm_runtime_suspend 1
 #define __KSYM___pm_runtime_use_autosuspend 1
 #define __KSYM___pm_stay_awake 1
+#define __KSYM___pmd_trans_huge_lock 1
 #define __KSYM___printk_ratelimit 1
 #define __KSYM___pskb_copy_fclone 1
 #define __KSYM___pskb_pull_tail 1
@@ -592,6 +593,7 @@
 #define __KSYM___traceiter_android_vh_include_reserved_zone 1
 #define __KSYM___traceiter_android_vh_init_swap_info_struct 1
 #define __KSYM___traceiter_android_vh_internal_blk_mq_free_request 1
+#define __KSYM___traceiter_android_vh_io_statistics 1
 #define __KSYM___traceiter_android_vh_iommu_alloc_iova 1
 #define __KSYM___traceiter_android_vh_iommu_free_iova 1
 #define __KSYM___traceiter_android_vh_iommu_iovad_alloc_iova 1
@@ -1135,6 +1137,7 @@
 #define __KSYM___tracepoint_android_vh_include_reserved_zone 1
 #define __KSYM___tracepoint_android_vh_init_swap_info_struct 1
 #define __KSYM___tracepoint_android_vh_internal_blk_mq_free_request 1
+#define __KSYM___tracepoint_android_vh_io_statistics 1
 #define __KSYM___tracepoint_android_vh_iommu_alloc_iova 1
 #define __KSYM___tracepoint_android_vh_iommu_free_iova 1
 #define __KSYM___tracepoint_android_vh_iommu_iovad_alloc_iova 1
@@ -1490,6 +1493,7 @@
 #define __KSYM__totalram_pages 1
 #define __KSYM__trace_android_vh_record_pcpu_rwsem_starttime 1
 #define __KSYM__vb2_fop_release 1
+#define __KSYM__vm_normal_page 1
 #define __KSYM_access_process_vm 1
 #define __KSYM_ack_all_badblocks 1
 #define __KSYM_activate_task 1
@@ -1549,6 +1553,7 @@
 #define __KSYM_arc4_setkey 1
 #define __KSYM_arch_mmap_rnd 1
 #define __KSYM_arch_timer_read_counter 1
+#define __KSYM_arch_vma_name 1
 #define __KSYM_argv_free 1
 #define __KSYM_argv_split 1
 #define __KSYM_arm64_const_caps_ready 1
@@ -5150,6 +5155,7 @@
 #define __KSYM_pm_wakeup_dev_event 1
 #define __KSYM_pm_wakeup_ws_event 1
 #define __KSYM_pm_wq 1
+#define __KSYM_pmd_clear_bad 1
 #define __KSYM_policy_has_boost_freq 1
 #define __KSYM_posix_acl_alloc 1
 #define __KSYM_posix_acl_chmod 1
