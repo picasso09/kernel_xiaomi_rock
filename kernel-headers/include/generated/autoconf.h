@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm64 5.10.231 Kernel Configuration
+ * Linux/arm64 5.10.233 Kernel Configuration
  *
  */
 #define CONFIG_NLS_CODEPAGE_861 1
@@ -1336,6 +1336,7 @@
 #define CONFIG_ANDROID_BINDERFS 1
 #define CONFIG_NLS_ISO8859_9 1
 #define CONFIG_NET_ACT_BPF 1
+#define CONFIG_CLKDEV_LOOKUP 1
 #define CONFIG_FONT_8x16 1
 #define CONFIG_NET_VENDOR_MELLANOX 1
 #define CONFIG_COMPAT_VDSO 1

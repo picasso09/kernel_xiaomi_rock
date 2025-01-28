@@ -1665,6 +1665,7 @@
 #define __KSYM_blk_mq_pci_map_queues 1
 #define __KSYM_blk_mq_queue_inflight 1
 #define __KSYM_blk_mq_quiesce_queue 1
+#define __KSYM_blk_mq_quiesce_queue_nowait 1
 #define __KSYM_blk_mq_requeue_request 1
 #define __KSYM_blk_mq_rq_cpu 1
 #define __KSYM_blk_mq_run_hw_queue 1
