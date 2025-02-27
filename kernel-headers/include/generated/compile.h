@@ -1,7 +1,7 @@
 /* This file is auto generated, version 1 */
 /* SMP PREEMPT */
 #define UTS_MACHINE "aarch64"
-#define UTS_VERSION "#1 SMP PREEMPT Thu Jan 23 08:37:02 WIB 2025"
+#define UTS_VERSION "#1 SMP PREEMPT Fri Feb 28 02:09:22 WIB 2025"
 #define LINUX_COMPILE_BY "picasso09"
 #define LINUX_COMPILE_HOST "DVWORKSPACE"
-#define LINUX_COMPILER "Android (7284624, based on r416183b) clang version 12.0.5 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee), LLD 12.0.5 (/buildbot/src/android/llvm-toolchain/out/llvm-project/lld c935d99d7cf2016289302412d708641d52d2f7ee)"
+#define LINUX_COMPILER "Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54), LLD 20.0.0 (/mnt/disks/build-disk/src/android/llvm-r547379-release/out/llvm-project/llvm b718bcaf8c198c82f3021447d943401e3ab5bd54)"
