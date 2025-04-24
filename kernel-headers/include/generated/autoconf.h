@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm64 5.10.234 Kernel Configuration
+ * Linux/arm64 5.10.236 Kernel Configuration
  *
  */
 #define CONFIG_NLS_CODEPAGE_861 1
@@ -809,7 +809,7 @@
 #define CONFIG_PM_OPP 1
 #define CONFIG_GPIO_CDEV 1
 #define CONFIG_CRYPTO_SHA2_ARM64_CE 1
-#define CONFIG_CC_VERSION_TEXT "Android (13065274, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54)"
+#define CONFIG_CC_VERSION_TEXT "Android (13174946, +pgo, +bolt, +lto, +mlgo, based on r547379) clang version 20.0.0 (https://android.googlesource.com/toolchain/llvm-project b718bcaf8c198c82f3021447d943401e3ab5bd54)"
 #define CONFIG_KEYBOARD_ATKBD 1
 #define CONFIG_LIBNVDIMM 1
 #define CONFIG_NET_IP_TUNNEL 1
@@ -1840,7 +1840,7 @@
 #define CONFIG_VIRTIO_MENU 1
 #define CONFIG_64BIT 1
 #define CONFIG_QUOTA 1
-#define CONFIG_UNUSED_KSYMS_WHITELIST "/home/ubuntu/5.10-ksu/out/android12-5.10/common/abi_symbollist.raw"
+#define CONFIG_UNUSED_KSYMS_WHITELIST "/home/ubuntu/gki-5.10/out/android12-5.10/common/abi_symbollist.raw"
 #define CONFIG_PARTITION_PERCPU 1
 #define CONFIG_MMC_SDHCI_PLTFM 1
 #define CONFIG_KFENCE_SAMPLE_INTERVAL 500
