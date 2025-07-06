@@ -1767,6 +1767,7 @@
 #define __KSYM_bpf_prog_add 1
 #define __KSYM_bpf_prog_put 1
 #define __KSYM_bpf_prog_sub 1
+#define __KSYM_bpf_redirect_info 1
 #define __KSYM_bpf_stats_enabled_key 1
 #define __KSYM_bpf_trace_run1 1
 #define __KSYM_bpf_trace_run10 1
