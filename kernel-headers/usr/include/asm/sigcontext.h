@@ -279,4 +279,5 @@ struct sigcontext {
 	unsigned long fault_address;
 };
 #endif /* CONFIG_64BIT */
+
 #endif /* __ASM_SIGCONTEXT_H */

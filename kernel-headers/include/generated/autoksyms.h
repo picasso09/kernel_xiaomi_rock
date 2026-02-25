@@ -76,8 +76,10 @@
 #define __KSYM___crypto_xor 1
 #define __KSYM___dev_direct_xmit 1
 #define __KSYM___dev_get_by_index 1
+#define __KSYM___dev_get_by_name 1
 #define __KSYM___dev_kfree_skb_any 1
 #define __KSYM___dev_kfree_skb_irq 1
+#define __KSYM___dev_set_mtu 1
 #define __KSYM___device_reset 1
 #define __KSYM___devm_alloc_percpu 1
 #define __KSYM___devm_drm_dev_alloc 1
@@ -293,6 +295,7 @@
 #define __KSYM___skb_checksum_complete 1
 #define __KSYM___skb_ext_put 1
 #define __KSYM___skb_flow_dissect 1
+#define __KSYM___skb_flow_get_ports 1
 #define __KSYM___skb_get_hash 1
 #define __KSYM___skb_gso_segment 1
 #define __KSYM___skb_pad 1
@@ -675,6 +678,7 @@
 #define __KSYM___traceiter_android_vh_record_rwsem_reader_owned 1
 #define __KSYM___traceiter_android_vh_remove_vmalloc_stack 1
 #define __KSYM___traceiter_android_vh_revert_creds 1
+#define __KSYM___traceiter_android_vh_reweight_entity 1
 #define __KSYM___traceiter_android_vh_rmqueue 1
 #define __KSYM___traceiter_android_vh_rmqueue_bulk_bypass 1
 #define __KSYM___traceiter_android_vh_rproc_recovery 1
@@ -699,6 +703,7 @@
 #define __KSYM___traceiter_android_vh_rwsem_write_wait_start 1
 #define __KSYM___traceiter_android_vh_save_track_hash 1
 #define __KSYM___traceiter_android_vh_save_vmalloc_stack 1
+#define __KSYM___traceiter_android_vh_sched_move_task 1
 #define __KSYM___traceiter_android_vh_sched_pelt_multiplier 1
 #define __KSYM___traceiter_android_vh_sched_setaffinity_early 1
 #define __KSYM___traceiter_android_vh_sched_show_task 1
@@ -1225,6 +1230,7 @@
 #define __KSYM___tracepoint_android_vh_record_rwsem_reader_owned 1
 #define __KSYM___tracepoint_android_vh_remove_vmalloc_stack 1
 #define __KSYM___tracepoint_android_vh_revert_creds 1
+#define __KSYM___tracepoint_android_vh_reweight_entity 1
 #define __KSYM___tracepoint_android_vh_rmqueue 1
 #define __KSYM___tracepoint_android_vh_rmqueue_bulk_bypass 1
 #define __KSYM___tracepoint_android_vh_rproc_recovery 1
@@ -1249,6 +1255,7 @@
 #define __KSYM___tracepoint_android_vh_rwsem_write_wait_start 1
 #define __KSYM___tracepoint_android_vh_save_track_hash 1
 #define __KSYM___tracepoint_android_vh_save_vmalloc_stack 1
+#define __KSYM___tracepoint_android_vh_sched_move_task 1
 #define __KSYM___tracepoint_android_vh_sched_pelt_multiplier 1
 #define __KSYM___tracepoint_android_vh_sched_setaffinity_early 1
 #define __KSYM___tracepoint_android_vh_sched_show_task 1
@@ -1572,7 +1579,9 @@
 #define __KSYM_arm64_const_caps_ready 1
 #define __KSYM_arm64_noalias_setup_dma_ops 1
 #define __KSYM_arm64_use_ng_mappings 1
+#define __KSYM_arp_create 1
 #define __KSYM_arp_tbl 1
+#define __KSYM_arp_xmit 1
 #define __KSYM_async_schedule_node 1
 #define __KSYM_async_schedule_node_domain 1
 #define __KSYM_async_synchronize_full_domain 1
@@ -1767,6 +1776,7 @@
 #define __KSYM_bpf_prog_add 1
 #define __KSYM_bpf_prog_put 1
 #define __KSYM_bpf_prog_sub 1
+#define __KSYM_bpf_redirect_info 1
 #define __KSYM_bpf_stats_enabled_key 1
 #define __KSYM_bpf_trace_run1 1
 #define __KSYM_bpf_trace_run10 1
@@ -1988,6 +1998,7 @@
 #define __KSYM_copy_to_user_fromio 1
 #define __KSYM_cpu_all_bits 1
 #define __KSYM_cpu_bit_bitmap 1
+#define __KSYM_cpu_cgrp_subsys 1
 #define __KSYM_cpu_have_feature 1
 #define __KSYM_cpu_hotplug_disable 1
 #define __KSYM_cpu_hotplug_enable 1
@@ -2170,6 +2181,9 @@
 #define __KSYM_crypto_unregister_templates 1
 #define __KSYM_css_next_child 1
 #define __KSYM_css_next_descendant_pre 1
+#define __KSYM_css_task_iter_end 1
+#define __KSYM_css_task_iter_next 1
+#define __KSYM_css_task_iter_start 1
 #define __KSYM_csum_ipv6_magic 1
 #define __KSYM_csum_partial 1
 #define __KSYM_csum_tcpudp_nofold 1
@@ -2246,6 +2260,7 @@
 #define __KSYM_dev_close 1
 #define __KSYM_dev_coredumpm 1
 #define __KSYM_dev_coredumpv 1
+#define __KSYM_dev_disable_lro 1
 #define __KSYM_dev_driver_string 1
 #define __KSYM_dev_err_probe 1
 #define __KSYM_dev_fetch_sw_netstats 1
@@ -2256,6 +2271,10 @@
 #define __KSYM_dev_get_by_name_rcu 1
 #define __KSYM_dev_get_regmap 1
 #define __KSYM_dev_get_stats 1
+#define __KSYM_dev_mc_add 1
+#define __KSYM_dev_mc_del 1
+#define __KSYM_dev_mc_flush 1
+#define __KSYM_dev_mc_sync 1
 #define __KSYM_dev_mc_sync_multiple 1
 #define __KSYM_dev_mc_unsync 1
 #define __KSYM_dev_open 1
@@ -2324,15 +2343,22 @@
 #define __KSYM_dev_pm_qos_update_user_latency_tolerance 1
 #define __KSYM_dev_pm_set_dedicated_wake_irq 1
 #define __KSYM_dev_pm_set_wake_irq 1
+#define __KSYM_dev_pre_changeaddr_notify 1
 #define __KSYM_dev_printk 1
 #define __KSYM_dev_printk_emit 1
 #define __KSYM_dev_queue_xmit 1
+#define __KSYM_dev_set_allmulti 1
 #define __KSYM_dev_set_mac_address 1
 #define __KSYM_dev_set_mtu 1
 #define __KSYM_dev_set_name 1
+#define __KSYM_dev_set_promiscuity 1
 #define __KSYM_dev_to_i3cdev 1
+#define __KSYM_dev_trans_start 1
+#define __KSYM_dev_uc_flush 1
+#define __KSYM_dev_uc_sync 1
 #define __KSYM_dev_uc_sync_multiple 1
 #define __KSYM_dev_uc_unsync 1
+#define __KSYM_dev_valid_name 1
 #define __KSYM_dev_vprintk_emit 1
 #define __KSYM_devfreq_add_device 1
 #define __KSYM_devfreq_add_governor 1
@@ -3337,6 +3363,8 @@
 #define __KSYM_fixed_phy_unregister 1
 #define __KSYM_fixed_size_llseek 1
 #define __KSYM_flow_block_cb_setup_simple 1
+#define __KSYM_flow_get_u32_dst 1
+#define __KSYM_flow_get_u32_src 1
 #define __KSYM_flow_keys_basic_dissector 1
 #define __KSYM_flow_rule_match_basic 1
 #define __KSYM_flow_rule_match_ipv4_addrs 1
@@ -3850,6 +3878,7 @@
 #define __KSYM_inc_nlink 1
 #define __KSYM_inc_node_page_state 1
 #define __KSYM_inc_zone_page_state 1
+#define __KSYM_inet_confirm_addr 1
 #define __KSYM_inet_csk_get_port 1
 #define __KSYM_inet_proto_csum_replace4 1
 #define __KSYM_init_dummy_netdev 1
@@ -4511,14 +4540,25 @@
 #define __KSYM_net_namespace_list 1
 #define __KSYM_net_ns_type_operations 1
 #define __KSYM_net_ratelimit 1
+#define __KSYM_netdev_adjacent_get_private 1
 #define __KSYM_netdev_alert 1
 #define __KSYM_netdev_alloc_frag 1
+#define __KSYM_netdev_bonding_info_change 1
 #define __KSYM_netdev_change_features 1
+#define __KSYM_netdev_class_create_file_ns 1
+#define __KSYM_netdev_class_remove_file_ns 1
 #define __KSYM_netdev_err 1
 #define __KSYM_netdev_get_name 1
+#define __KSYM_netdev_has_upper_dev 1
 #define __KSYM_netdev_increment_features 1
 #define __KSYM_netdev_info 1
+#define __KSYM_netdev_is_rx_handler_busy 1
+#define __KSYM_netdev_lower_dev_get_private 1
+#define __KSYM_netdev_lower_get_first_private_rcu 1
+#define __KSYM_netdev_lower_get_next_private 1
+#define __KSYM_netdev_lower_get_next_private_rcu 1
 #define __KSYM_netdev_lower_state_changed 1
+#define __KSYM_netdev_master_upper_dev_get 1
 #define __KSYM_netdev_master_upper_dev_link 1
 #define __KSYM_netdev_notice 1
 #define __KSYM_netdev_notify_peers 1
@@ -4531,6 +4571,8 @@
 #define __KSYM_netdev_update_features 1
 #define __KSYM_netdev_upper_dev_link 1
 #define __KSYM_netdev_upper_dev_unlink 1
+#define __KSYM_netdev_upper_get_next_dev_rcu 1
+#define __KSYM_netdev_walk_all_upper_dev_rcu 1
 #define __KSYM_netdev_warn 1
 #define __KSYM_netif_carrier_off 1
 #define __KSYM_netif_carrier_on 1
@@ -4981,6 +5023,7 @@
 #define __KSYM_phy_configure 1
 #define __KSYM_phy_connect 1
 #define __KSYM_phy_connect_direct 1
+#define __KSYM_phy_device_free 1
 #define __KSYM_phy_disconnect 1
 #define __KSYM_phy_do_ioctl_running 1
 #define __KSYM_phy_drivers_register 1
@@ -5882,6 +5925,8 @@
 #define __KSYM_skb_dequeue_tail 1
 #define __KSYM_skb_dump 1
 #define __KSYM_skb_ensure_writable 1
+#define __KSYM_skb_flow_dissector_init 1
+#define __KSYM_skb_flow_get_icmp_tci 1
 #define __KSYM_skb_free_datagram 1
 #define __KSYM_skb_page_frag_refill 1
 #define __KSYM_skb_partial_csum_set 1
