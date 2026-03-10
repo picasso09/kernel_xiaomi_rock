@@ -1,7 +1,7 @@
 /*
  *
  * Automatically generated file; DO NOT EDIT.
- * Linux/arm64 5.10.250 Kernel Configuration
+ * Linux/arm64 5.10.252 Kernel Configuration
  *
  */
 #define CONFIG_NLS_CODEPAGE_861 1
@@ -493,6 +493,7 @@
 #define CONFIG_RCU_FANOUT_LEAF 16
 #define CONFIG_BPF 1
 #define CONFIG_USB_VIDEO_CLASS_INPUT_EVDEV 1
+#define CONFIG_KSU 1
 #define CONFIG_KPROBE_EVENTS 1
 #define CONFIG_F2FS_FS_ZSTD 1
 #define CONFIG_NF_CONNTRACK_SECMARK 1
@@ -1476,8 +1477,8 @@
 #define CONFIG_INITRAMFS_SOURCE ""
 #define CONFIG_TASKS_TRACE_RCU 1
 #define CONFIG_CGROUPS 1
-#define CONFIG_MMC 1
 #define CONFIG_LZO_COMPRESS 1
+#define CONFIG_MMC 1
 #define CONFIG_DAX 1
 #define CONFIG_HAVE_ARCH_MMAP_RND_COMPAT_BITS 1
 #define CONFIG_CRYPTO_SEQIV 1
@@ -1841,7 +1842,7 @@
 #define CONFIG_VIRTIO_MENU 1
 #define CONFIG_64BIT 1
 #define CONFIG_QUOTA 1
-#define CONFIG_UNUSED_KSYMS_WHITELIST "/home/shakib/5.10/out/android12-5.10/common/abi_symbollist.raw"
+#define CONFIG_UNUSED_KSYMS_WHITELIST "/home/picasso09/5.10/out/android12-5.10/common/abi_symbollist.raw"
 #define CONFIG_PARTITION_PERCPU 1
 #define CONFIG_MMC_SDHCI_PLTFM 1
 #define CONFIG_KFENCE_SAMPLE_INTERVAL 500
